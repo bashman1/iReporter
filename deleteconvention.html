@@ -21,41 +21,50 @@
 		</div>
 		<div class="side-bar">
 			<div class="vertical-menu">
-			  <a href="intervention.html" class="active">Home</a>
+			   <a href="intervention.html" class="active">Home</a>
 			  <a href="deleteconvention.html">Delete</a>
 			  <a href="editinterventionlocation.html">Update Location</a>
 			  <a href="allintervantions.html">All intervantion</a>
-		
 			</div>
 
 		</div>
 		<div class="content">
-			<div class="form">
-				<h1>Interven</h1>
-				<form method="POST" enctype="multipart/form-data" action="">
-					<div class="input">
-						<input type="text" name="" placeholder="Title">
-					</div>
-					<div class="input">
-						<input type="text" name="" placeholder="Latitude">
-					</div>
-					<div class="input">
-						<input type="text" name="" placeholder="Longitude">
-					</div>
-					<div class="input">
-						<textarea placeholder="Description"></textarea>
-					</div>
-					<div class="input">
-						<input type="file" name="" accept="image/*">
-					</div>
-					<div class="input">
-						<input type="date" name="">
-					</div>
-					<div class="input">
-						<input type="submit" class="btn-form" name="" value="Report">
-					</div>
+			<div class="table-container">
+				<h1>Delete Intervention</h1>
+				<table class="table" >
+					<tr>
+						<thead>
+							<th>#</th>
+							<th>Title</th>
+							<th>Descreption</th>
+							<!-- <th>Image</th> -->
+							<th>Longitude</th>
+							<th>Latitude</th>
+							<th>Date</th>
+							<th></th>
+						</thead>
+						
+					</tr>
+					<tr>
+						<tbody>
+							<td>1</td>
+							<td>Helth Funds</td>
+							<td>The morney for the health center V has not been delivered for five years</td>
+							<!-- <td></td> -->
+							<td>32.582520</td>
+							<td>0.347596</td>
+							<td>23/11/2018</td>
+
+							<td>
+								<button class="btn-table">Edit</button>
+								<button class="btn-table">&times;</button>
+
+							</td>
+						</tbody>
+					</tr>
 					
-				</form>
+				</table>
+				
 			</div>
 			
 				
@@ -74,11 +83,6 @@
 <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
-
-
-
-
-
 
 
 

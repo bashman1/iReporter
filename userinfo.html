@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<title>iReport</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div id="container">
+	<div id="main">
+		<div class="nav">
+			<ul>
+
+				<li><a href="index.html" onclick="return confirm('Log Out')">Log Out</a></li>
+				<li><a href="admin.html">Admin</a></li>
+				<li><a href="userinfo.html">User Info</a></li>
+				<li><a href="intervention.html">Intervention</a></li>
+				<li><a href="red_flag.html">Red Flag</a></li>
+				<li><a href="home.html">Home</a></li>	
+			</ul>
+		</div>
+		
+
+		<div id="content">
+			<div class="side-bar"></div>
+			<div class="userinfo">
+				<h3>Resolve</h3>
+				Red-Flag: <span class="flags">2</span><br>
+				Intervention:<span class="flags"> 0</span>
+				<h3>Under Investigation</h3>
+				Red-Flag:<span class="flags"> 4</span><br>
+				Intervention:<span class="flags"> 2</span>
+
+				<h3>Rejected</h3>
+				Red-Flag:<span class="flags"> 5</span><br>
+				Intervention:<span class="flags"> 3</span>
+			</div>
+			
+
+		</div>
+				<div class="table-container">
+				<h1>All the alerts raised</h1>
+				<table class="table" >
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>Title</th>
+							<th>Descreption</th>
+							<!-- <th>Image</th> -->
+							<th>Longitude</th>
+							<th>Latitude</th>
+							<th>Date</th>
+							<th>Status</th>
+
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>Helth Funds</td>
+							<td>The morney for the health center V has not been delivered for five years</td>
+							<!-- <td></td> -->
+							<td>32.582520</td>
+							<td>0.347596</td>
+							<td>23/11/2018</td>
+							<td>Resolved</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>Helth Funds</td>
+							<td>The morney for the health center V has not been delivered for five years</td>
+							<!-- <td></td> -->
+							<td>32.582520</td>
+							<td>0.347596</td>
+							<td>23/11/2018</td>
+							<td>Rejected</td>
+						</tr>
+						
+					</tbody>
+				</table>
+				
+			</div>
+		
+		
+	</div>
+</div>
+
+<footer id="footer">
+	<p>Copyright 2018</p>
+</footer>
+
+
+<script type="text/javascript" src="js/script.js"></script>
+<!-- <script type="text/javascript">
+	function openSlideMenu() {
+	document.getElementById('side-menu').style.width='250px';
+	document.getElementById('content').style.marginLeft='250';
+	}
+</script> -->
+</body>
+</html>
