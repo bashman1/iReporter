@@ -257,3 +257,27 @@ html, body {
 	margin-top: 10px;
 	
 }
+.btn-table{
+	background-color: #4d94ff;
+	border: none;
+	color: #fff;
+	width: 50px;
+	height: 20px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+.btn-form{
+	background-color: #4d94ff;
+	border: none;
+	color: #fff;
+	width: 200px;
+	height: 40px;
+	font-weight: bolder;
+	border-radius: 10px;
+}
+.delete{
+	background-color: #ff471a;
+}
+.admin{
+	height: 40px;
+}
