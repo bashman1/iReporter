@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<title>iReport</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div id="container">
+	<div id="main">
+		<div class="nav">
+			<ul>
+
+				<li><a href="index.html" onclick="return confirm('Log Out')">Log Out</a></li>
+				<li><a href="admin.html">Admin</a></li>
+				<li><a href="userinfo.html">User Info</a></li>
+				<li><a href="intervention.html">Intervention</a></li>
+				<li><a href="red_flag.html">Red Flag</a></li>
+				<li><a href="home.html">Home</a></li>	
+			</ul>
+		</div>
+		<div class="side-bar">
+			<div class="vertical-menu">
+			  <a href="red_flag.html" class="active">Home</a>
+			  <a href="deleteredflag.html">Delete</a>
+			  <a href="editflaglocation.html">Update Location</a>
+			  <a href="allredflags.html">All Red-Flag</a>
+			</div>
+
+		</div>
+		<div class="content">
+			<div class="form">
+				<h1>Report</h1>
+				<form method="POST" enctype="multipart/form-data" action="">
+					<div class="input">
+						<input type="text" name="" placeholder="Title">
+					</div>
+					<div class="input">
+						<input type="text" name="" placeholder="Latitude">
+					</div>
+					<div class="input">
+						<input type="text" name="" placeholder="Longitude">
+					</div>
+					<div class="input">
+						<textarea placeholder="Description"></textarea>
+					</div>
+					<div class="input">
+						<input type="file" name="" accept="image/*">
+					</div>
+					<div class="input">
+						<input type="date" name="">
+					</div>
+					<div class="input">
+						<input type="submit" class="btn-form" name="" value="Report">
+					</div>
+					
+				</form>
+			</div>
+			
+				
+				
+				
+		
+	</div>
+</div>
+</div>
+
+<footer id="footer">
+	<p>Copyright 2018</p>
+</footer>
+
+
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
