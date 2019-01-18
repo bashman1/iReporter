@@ -50,7 +50,7 @@ html, body {
 	width: 260px;
 	padding: 10px 0;
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 	text-align: center;
 	margin: auto ;
 	border-radius: 10px;
@@ -139,6 +139,31 @@ html, body {
 .nav li a:hover {
     background-color: #111;
 }
+.nav-log li{
+	float: left;
+    float: right;
+
+}
+.nav-log li a{
+	display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav-log li a:hover {
+	background-color: #111;
+	color: #fff;
+
+}
+.nav-log ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    /*float: right;*/
+}
 .barner{
 	background-image: url(../img/reporter.jpg);
 	background-repeat: no-repeat;
@@ -173,7 +198,7 @@ html, body {
 	height: 30px;
 	border: 1px solid;
 	border-radius: 10px;
-	text-align: center;
+	text-align: left;
 
 }
 .input{
