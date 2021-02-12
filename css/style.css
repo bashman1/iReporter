@@ -50,7 +50,7 @@ html, body {
 	width: 260px;
 	padding: 10px 0;
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 	text-align: center;
 	margin: auto ;
 	border-radius: 10px;
@@ -67,9 +67,9 @@ html, body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	color: #fff;
+	color: #000;
 	text-align: center;
-	background-color: #000;
+	background-color: #fff;
 
 	/*opacity: 0.5;*/
 	/*width: 30%;*/
@@ -89,7 +89,7 @@ html, body {
 .tbox{
 	width: 260px;
 	height: 40px;
-	background-color: #f1f1f1b3;
+	background-color: #d9d9d9;
 	border-radius: 10px;
 	margin: 10px auto ;
 }
@@ -97,12 +97,12 @@ html, body {
 	background: none;
 	border:none;
 	outline: none;
-	text-align: center;
+	text-align:left;
 	width: 90%;
 	height: 37px;
 	font-family: "Montserrat", sans-serif;
 	font-size: 14px;
-	color: #333;
+	color: #000;
 }
 .login input[type=email], input[type=password]{
 	/*width: 100%;*/
@@ -139,6 +139,31 @@ html, body {
 .nav li a:hover {
     background-color: #111;
 }
+.nav-log li{
+	float: left;
+    float: right;
+
+}
+.nav-log li a{
+	display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav-log li a:hover {
+	background-color: #111;
+	color: #fff;
+
+}
+.nav-log ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    /*float: right;*/
+}
 .barner{
 	background-image: url(../img/reporter.jpg);
 	background-repeat: no-repeat;
@@ -173,7 +198,7 @@ html, body {
 	height: 30px;
 	border: 1px solid;
 	border-radius: 10px;
-	text-align: center;
+	text-align: left;
 
 }
 .input{
